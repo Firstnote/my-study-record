@@ -221,3 +221,4 @@ A:[code9](./code/code9.js)
 要求：尽可能还原 Promise 中的每一个 API，并通过注释的方式描述思路和原理。
 
 A:[mypromise](./code/mypromise.js)
+测试:[test](./code/test.js)
