@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-test": "babel modules/two/code/flow -d modules/two/code/flow-dist",
+    "flow-test": "flow-remove-types modules/two/code/flow -d modules/two/code/flow-dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-flow": "^7.10.4",
+    "flow-bin": "^0.132.0",
+    "flow-remove-types": "^2.132.0",
     "lodash": "^4.17.20"
   }
 }
