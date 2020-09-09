@@ -34,4 +34,4 @@ A:[gulp](./code/pages-boilerplate-gulp)
 
 #### 3、使用 Grunt 完成项目的自动化构建
 
-A:[gulp](./code/pages-boilerplate-grunt)
+A:[grunt](./code/pages-boilerplate-grunt)
